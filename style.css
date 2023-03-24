@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.A4 {
+  max-width: 900px;
+  margin: 10px auto;
+  border: solid 1px grey;
+  box-shadow: 5px 5px 5px grey;
+  position: relative;
+}
+
+.name {
+  padding-top: 20px;
+  padding-left: 50px;  
+  padding-bottom: 20px;
+  background-color: rgb(223, 231, 238);
+  color:  rgb(141, 192, 192);
+  font-size: 25px;
+}
+
+.objective {
+  background-color: rgb(157, 214, 214);
+  color: #fff;
+  padding: 20px 0 20px 50px;
+}
+
+.icons {
+  list-style-type: none;
+	font-size: 14px;
+}
+
+li {
+ margin: 0;
+ padding-left: 30px;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+
+.objective #col {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60%;
+}
+
+img {
+    width: 170px;
+    height: 210px;
+    position:absolute;
+    top: 50px;
+    right: 50px;
+    border-radius: 5px;
+}
+
+.background {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px; 
+  padding-right:  30px;
+  background-color: rgb(223, 231, 238);
+}
+
+.block {
+  margin: 20px;
+}
+
+
+.block li {
+  list-style: none;
+	font-size: 12px;
+ 
+}
+
+
+.block li:before{
+	content:"—";
+	position:relative;
+	left:-5px; 
+}
+
+.block-title {
+  border-bottom: 1px solid black;
+  font-style: bold 100;
+}
+
+.block-title2 .fa {
+  margin: 5px;
+ 
+}
